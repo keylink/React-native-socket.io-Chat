@@ -6,6 +6,7 @@ import {
   Image,
   AsyncStorage
 } from 'react-native';
+import PropTypes from 'prop-types';
 
 let USER = '';
 
@@ -38,6 +39,10 @@ class FlatListComponent extends React.Component {
     )
   }
 }
+
+FlatListComponent.propTypes = {
+  item: PropTypes.array.isRequired,
+};
 
 const styles = StyleSheet.create({
   listItem: {

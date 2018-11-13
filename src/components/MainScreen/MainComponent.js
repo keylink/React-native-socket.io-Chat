@@ -31,7 +31,6 @@ class HomeScreen extends React.Component {
             source={require('../../../assets/1_ypTuZbQNEV1oGkAfn85AUA.png')}
           />
         </View>
-
       </View>
     );
   }
@@ -46,7 +45,6 @@ const styles = StyleSheet.create({
     marginRight: 10
   },
   buttonAbout: {
-    textAlign: 'center',
     alignSelf: 'flex-end',
     width: "20%",
     backgroundColor: "#61dbfc",

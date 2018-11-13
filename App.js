@@ -3,12 +3,12 @@ import { Ionicons } from '@expo/vector-icons';
 import { createBottomTabNavigator, createStackNavigator } from 'react-navigation';
 
 import DetailsScreen from './src/components/About/AboutComponent';
-import TodoList from './src/components/MainScreen/MainComponent';
+import MainComponent from './src/components/MainScreen/MainComponent';
 import ChatScreen from './src/components/ChatScreen/ChatComponent';
 import LoginScreen from './src/components/LoginScreen/LoginComponent';
 
-const TodoStack = createStackNavigator({
-  TodoList: TodoList,
+const MainStack = createStackNavigator({
+  MainComponent: MainComponent,
   Details: DetailsScreen,
 });
 
@@ -19,7 +19,7 @@ const ChatStack = createStackNavigator({
 
 export default createBottomTabNavigator(
   {
-    MainScreen: TodoStack,
+    MainScreen: MainStack,
     Chat: ChatStack,
   },
   {

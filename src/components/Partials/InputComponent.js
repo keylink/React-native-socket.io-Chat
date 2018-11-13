@@ -6,6 +6,7 @@ import {
   TextInput,
   TouchableHighlight
 } from 'react-native';
+import PropTypes from 'prop-types';
 
 class InputComponent extends React.Component {
 
@@ -35,6 +36,13 @@ class InputComponent extends React.Component {
     )
   }
 }
+
+InputComponent.propTypes = {
+  changeTextHandler: PropTypes.func.isRequired,
+  onSubmitEditing: PropTypes.func.isRequired,
+  value: PropTypes.string.isRequired,
+  sendMessage: PropTypes.func.isRequired
+};
 
 const styles = StyleSheet.create({
   textInput: {

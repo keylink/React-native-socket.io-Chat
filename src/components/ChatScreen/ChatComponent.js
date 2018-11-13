@@ -1,20 +1,12 @@
 import React, { Component }  from 'react';
 import {
   StyleSheet,
-  Text,
   View,
-  Button,
   AsyncStorage,
   Platform,
   Keyboard,
-  AppRegistry,
   FlatList,
-  TextInput,
-  TouchableHighlight,
-  Image,
-  TouchableOpacity
 } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
 import SocketIOClient from 'socket.io-client';
 
 import FlatListComponent from '../Partials/FlatListComponent';
