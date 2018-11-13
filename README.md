@@ -46,7 +46,7 @@ $ expo start
 
 #### Then you have to install Expo client app to your own telephone
 * [Expo client app](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=ru)
-* Scan QR code from your application (will application)
+* Scan QR code from your application
 * in settings of the application you have to set your local IP-address
 
 
